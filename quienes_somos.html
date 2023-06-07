@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiénes somos?</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-image: url('tecnologia.gif');
+            background-size: cover;
+            background-repeat: repeat;
+        }
+        
+        .header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .content p {
+            color: white;
+            font-size: 110%; /* Aumenta el tamaño de letra en un 10% */
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .button {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Quiénes somos?</h1>
+    </div>
+    <div class="content">
+        <p>
+            Somos un grupo de estudiantes de ingeniería en sistemas de la Universidad de Mariano Gálvez. Tenemos a cargo inventar un invento novedoso que ayude a las personas a facilitar algunas tareas. En este caso, como estudiantes, hemos llegado a la conclusión de desarrollar un robot que ayuda a regar las plantas. Este invento es de mucha ayuda para las personas discapacitadas, ya que les permite evitar un esfuerzo adicional. Esto es todo acerca de nuestro proyecto.
+        </p>
+    </div>
+    <div class="buttons">
+        <button class="button" onclick="window.location.href='index.html'">Regresar al Inicio</button>
+        <button class="button" onclick="window.location.href='mision_vision.html'">Conoce sobre Nosotros</button>
+    </div>
+</body>
+</html>
